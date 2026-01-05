@@ -1,0 +1,10 @@
+music = {
+    "naina" : "https://youtu.be/9IzaWBsUhCU?si=JIED7W7wOsnZ8LL6" ,
+    "nusta paisa" : "https://youtu.be/s1TBzhmt1vU?si=-0gbo-hoVXwDCY34" ,
+    "nanchaku" : "https://youtu.be/VjJtH7xM8G4?si=GUne73m1asL4G5S2" ,
+    "shape of you" : "https://youtu.be/liTfD88dbCo?si=1wQVa7afIdBwKahb" ,
+    "dubai company" : "https://youtu.be/Pr1OdTzZDpQ?si=yhUQgZRWX0f0fBfc",
+    "rx 100" : "https://youtu.be/cfYCUKQtmp0?si=OJ8EWKrTJr0NCcgD" ,
+   
+
+}
