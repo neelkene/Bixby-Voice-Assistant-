@@ -76,7 +76,7 @@ def handle_command(text: str):
     return "Command not recognized for system control."
 
 
-
+### this is ongoing feature on the task to play to frist search of the youtube if not found in local music library
 
 # def play_from_youtube(query: str):
 #     # search YouTube for the query and get the first result
@@ -177,6 +177,8 @@ def handle_command(c):
         answer = ask_openrouter(f"Explain {topic} in very simple language.")
         print("Model answer:", answer)
         speak(answer)
+
+
     # elif c.startswith("play"):
     #     song = " ".join(c.split(" ")[1:]).strip()
     # if not song:
