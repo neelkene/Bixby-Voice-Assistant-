@@ -6,4 +6,6 @@ music = {
     "dubai company" : "https://youtu.be/Pr1OdTzZDpQ?si=yhUQgZRWX0f0fBfc",
     "rx 100" : "https://youtu.be/cfYCUKQtmp0?si=OJ8EWKrTJr0NCcgD" ,
     "bargad" : "https://youtu.be/BBM57gr9fFU?si=h6klhGLa1_pwyEJJ" ,
+    "dil nu " : "https://youtu.be/p2EdDiiVHh4?si=oHFsDOP4psZLHhF1" ,
+    "be inteehan" : "https://youtu.be/XSdupl2VNBM?si=QdWD0j3hqvH1XGkt" , 
 }
