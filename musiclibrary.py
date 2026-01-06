@@ -7,5 +7,10 @@ music = {
     "rx 100" : "https://youtu.be/cfYCUKQtmp0?si=OJ8EWKrTJr0NCcgD" ,
     "bargad" : "https://youtu.be/BBM57gr9fFU?si=h6klhGLa1_pwyEJJ" ,
     "dil nu " : "https://youtu.be/p2EdDiiVHh4?si=oHFsDOP4psZLHhF1" ,
-    "be inteehan" : "https://youtu.be/XSdupl2VNBM?si=QdWD0j3hqvH1XGkt" , 
+    "be inteehan" : "https://youtu.be/XSdupl2VNBM?si=QdWD0j3hqvH1XGkt",
 }
+
+# git status
+# git add  .
+# git commit -m "update music library"
+# git push origin main      
