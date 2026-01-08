@@ -19,7 +19,7 @@ pygame.mixer.init()  # just init, do NOT assign to engine
 OPENROUTER_API_KEY = "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"
 # ---------------------------------------------------------------
 
-#### Function defination of all features from the system _ control ####
+#### Function def... of all features from the system _ control ####
 # main.py
 from system_control import (
     volume_up, volume_down, set_volume_percent,
