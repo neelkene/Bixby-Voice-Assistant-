@@ -38,7 +38,7 @@ def handle_command(text: str):
         volume_down()
         return "Volume decreased."
     if "mute" in text:
-        set_volume_percent(0)
+        set_volume_percent(0)     
         return "Volume muted."
     if "set volume to" in text:
         # crude parse: "set volume to 50"
