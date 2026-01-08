@@ -6,8 +6,8 @@ import pygame
 import os
 import requests
 # from youtubesearchpython import VideosSearch
-
-
+from translator_module import VoiceTranslator
+translator = VoiceTranslator(hindi_voice_index=2)  # Adjust based on your system
 
 
 
@@ -178,6 +178,8 @@ def handle_command(c):
         print("Model answer:", answer)
         speak(answer)
 
+    elif "translate" in c.lower():
+        translator.translate_and_speak()
 
     # elif c.startswith("play"):
     #     song = " ".join(c.split(" ")[1:]).strip()
@@ -220,3 +222,5 @@ if __name__ == "__main__":
             print("Can't understand audio")
         except sr.RequestError as e:
             print("Google error; {0}".format(e))
+
+
