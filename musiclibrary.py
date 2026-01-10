@@ -12,6 +12,6 @@ music = {
 
 # git status
 # git add  .
-# git commit -m "update music library"
+# git commit -m "update translation file"
 # git push origin main      
       
