@@ -52,7 +52,7 @@ class VoiceTranslator:
                         return sentence
                     else:
                         self.speak("Please repeat the English sentence after 'translate'.")
-                else:
+                else: 
                     self.speak("Say 'translate' followed by your English sentence.")
         
             except sr.RequestError as e:
