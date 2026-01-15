@@ -50,8 +50,8 @@ class VoiceTranslator:
                     sentence = command.replace('translate', '').strip()
                     if sentence:
                         return sentence
-                    else:
-                        self.speak("Please repeat the English sentence after 'translate'.")
+                    # else:
+                    #     self.speak("Please repeat the English sentence after 'translate'.")
                 else:   
                     self.speak("Say 'translate' followed by your English sentence.")
         
