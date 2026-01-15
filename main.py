@@ -209,7 +209,8 @@ if __name__ == "__main__":
                 audio = recognizer.listen(source, timeout=5, phrase_time_limit=3)
                 heard = recognizer.recognize_google(audio).lower()
                 print("You said:", heard)
-
+                print("Recognizing ------ ")
+                
                 if "bixby" in heard:
                     speak("Yes, how can I help you?")
                     print("Listening for your command...")
