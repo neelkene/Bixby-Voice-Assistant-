@@ -8,6 +8,7 @@ music = {
     "bargad" : "https://youtu.be/BBM57gr9fFU?si=h6klhGLa1_pwyEJJ" ,
     "dil nu " : "https://youtu.be/p2EdDiiVHh4?si=oHFsDOP4psZLHhF1" ,
     "be inteehan" : "https://youtu.be/XSdupl2VNBM?si=QdWD0j3hqvH1XGkt",
+    
 }
 
 # git status
