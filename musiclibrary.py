@@ -13,5 +13,5 @@ music = {
 
 # git status
 # git add  .
-# git commit -m "updates in requirements"
+# git commit -m "translator module "
 # git push origin main                  

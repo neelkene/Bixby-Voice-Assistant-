@@ -17,7 +17,7 @@ class VoiceTranslator:
     def __init__(self, hindi_voice_index=None):
         self.recognizer = sr.Recognizer()
         self.recognizer.pause_threshold = 1
-        self.recognizer.energy_threshold = 300  # Adjust for mic sensitivity
+        self.recognizer.energy_threshold = 350  # Adjust for mic sensitivity
 
         self.translator = GoogleTranslator(source="auto", target="hi")
 
@@ -27,7 +27,7 @@ class VoiceTranslator:
             voices = self.tts_engine.getProperty('voices')
             if 0 <= hindi_voice_index < len(voices):
                 self.tts_engine.setProperty('voice', voices[hindi_voice_index].id)
-        self.tts_engine.setProperty('rate', 180)  # Speed
+        self.tts_engine.setProperty('rate', 172)  # Speed
         self.tts_engine.setProperty('volume', 0.9)
 
     def speak(self, text):
