@@ -15,9 +15,9 @@ translator = VoiceTranslator(hindi_voice_index=2)  # Adjust based on your system
 recognizer = sr.Recognizer()
 pygame.mixer.init()  # just init, do NOT assign to engine
 
-# ---- YOUR OPENROUTER API KEY (hard-coded for this project) ----
-OPENROUTER_API_KEY = "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"
-# ---------------------------------------------------------------
+# ---- YOUR OPENROUTER API KEY (hard-coded for this project) --
+OPENROUTER_API_KEY =  "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"
+# -------------------------------------------------
 
 #### Function def... of all features from the system _ control ######
 # main.py
