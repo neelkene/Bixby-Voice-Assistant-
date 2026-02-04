@@ -52,7 +52,7 @@ def handle_command(text: str):
     # Screenshot
     if "take screenshot" in text or "screenshot" in text:
         path = take_screenshot()
-        return f"Screenshot saved to {path}."
+        return f"Screenshot saved to {"Enter the path"}."   -----------
 
     # Open/close apps
     if "open notepad" in text:
@@ -104,20 +104,20 @@ def speak(text: str):
 
     # wait till it finishes
     while pygame.mixer.get_busy():
-        pygame.time.Clock().tick(10)
+        pygame.time.Clock().tick(8)
 
     # delete file to avoid clutter
     os.remove(filename)
 
 
 def ask_openrouter(prompt: str) -> str:
-    if not OPENROUTER_API_KEY:
+    if not OPENROUTER_API_KEY :
         return "API key enable kar lawde ."
 
     url = "https://openrouter.ai/api/v1/chat/completions"
 
     headers = {
-        "Authorization": f"Bearer {OPENROUTER_API_KEY}",
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",   -----------
         "Content-Type": "application/json",
         "HTTP-Referer": "http://localhost",
         "X-Title": "Bixby Voice Assistant",
