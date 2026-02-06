@@ -15,11 +15,12 @@ translator = VoiceTranslator(hindi_voice_index=2)  # Adjust based on your system
 recognizer = sr.Recognizer()
 pygame.mixer.init()  # just init, do NOT assign to engine
 
-# # ---- YOUR OPENROUTER API KEY (hard-coded for this project) --
-# OPENROUTER_API_KEY =  "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"
-# # -------------------------------------------------
+# ---- YOUR OPENROUTER API KEY (hard-coded for this project) --
+OPENROUTER_API_KEY =  "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"
+# -------------------------------------------------
 
 #### Function def... of all features from the system _ control ######
+
 # main.py
 from system_control import (
     volume_up, volume_down, set_volume_percent,
@@ -117,7 +118,7 @@ def ask_openrouter(prompt: str) -> str:
     url = "https://openrouter.ai/api/v1/chat/completions"
 
     headers = {
-        "Authorization": f"Bearer {OPENROUTER_API_KEY}",   -----------
+        "Authorization": f"Bearer {OPENROUTER_API_KEY}",   
         "Content-Type": "application/json",
         "HTTP-Referer": "http://localhost",
         "X-Title": "Bixby Voice Assistant",
