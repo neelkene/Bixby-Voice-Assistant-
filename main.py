@@ -53,7 +53,7 @@ def handle_command(text: str):
     # Screenshot
     if "take screenshot" in text or "screenshot" in text:
         path = take_screenshot()
-        return f"Screenshot saved to {"Enter the path"}."   -----------
+        return f"Screenshot saved to {"Enter the path"} " 
 
     # Open/close apps
     if "open notepad" in text:
