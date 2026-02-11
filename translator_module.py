@@ -87,13 +87,13 @@ def find_hindi_voice():
 # Demo loop
 if __name__ == "__main__":
     print("Finding voices... Run find_hindi_voice() if needed.")
-    # find_hindi_voice()  # Uncomment to list voices
+    find_hindi_voice()  # Uncomment to list voices
 
     # Use Hindi voice index (e.g., 2 or 3 for Hindi on Windows - check above)
-    translator = VoiceTranslator(hindi_voice_index=2)  # Adjust based on your system
+    translator = VoiceTranslator(hindi_voice_index=3)  # Adjust based on your system
 
     print("Voice translator ready! Say 'translate <English sentence>'.")
-    print("Say 'quit' to exit.\n")
+    print("Say 'exit' to exit.\n")
 
     while True:
         try:
