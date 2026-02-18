@@ -16,7 +16,7 @@ Audio: Real-time microphone processing with ambient noise cancellation   .
 
 
 
-Key Features & Capabilities
+### Key Features & Capabilities
 
 
 1. Wake-Word Activation
