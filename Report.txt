@@ -10,9 +10,9 @@ speech processing, API integration, system automation, and modular architecture.
 Tech Stack
 Core: Python 3.x, SpeechRecognition Google STT, gTTS Google TTS, pygame
 AI: OpenRouter API (deepseek/deepseek-chat model) for intelligent explanations
-System Control: Custom system_control module Windows automation
+System Control: Custom system_control module Windows automation  
 Additional: Requests, webbrowser, regex parsing, VoiceTranslator module
-Audio: Real-time microphone processing with ambient noise cancellation
+Audio: Real-time microphone processing with ambient noise cancellation   .
 
 
 
