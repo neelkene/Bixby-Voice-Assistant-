@@ -38,7 +38,7 @@ def volume_up(step: int = 5):
 def volume_down(step: int = 5):
     vol = _get_volume_interface()
     current = vol.GetMasterVolumeLevelScalar()
-    vol.SetMasterVolumeLevelScalar(max(0.0, current - step / 100.0), None)
+    vol.SetMasterVolumeLevelScalar(max(0.0, current - step / 100.0), None)   
 
 
 ## screenshot code git neel 
