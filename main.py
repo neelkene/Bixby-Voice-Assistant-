@@ -191,7 +191,7 @@ def handle_command(c):
     # # 1) Try your local library first (fast for favorite songs)
     # link = musiclibrary.music.get(song.lower())
     # if link:
-    #     webbrowser.open(link)
+    #     webbrowser.open(link) 
     #     speak(f"Playing {song}")
     # else:
     #     # 2) Fallback: search YouTube and play top result
