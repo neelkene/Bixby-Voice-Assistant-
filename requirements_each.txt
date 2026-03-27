@@ -30,5 +30,6 @@ pyttsx3
 #The API key is outdates of the openrouter 
 #Genrate the new api key and add it to the project and also 
 #add the MIT Lisence so it will not outdated any more 
+use other api key rather than openai in the open router 
    
 
