@@ -4,7 +4,6 @@ import subprocess
 from ctypes import POINTER, cast
 import datetime
 import pyautogui
-import signal
 import psutil
 
 try:
@@ -61,7 +60,7 @@ def close_app_by_name(name_substring: str):
     for proc in psutil.process_iter(["pid", "name"]):
         try:
             if name_substring.lower() in (proc.info["name"] or "").lower():
-                os.kill(proc.info["pid"], signal.SIGTERM)
+                proc.terminate()
                 return True
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             continue
