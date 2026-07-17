@@ -54,7 +54,6 @@ music = {
     "har funn maula" : "https://youtu.be/qM6gZ0KhEsk" ,
     "baanware" : "https://youtu.be/J0YVm5K1gZo" ,
     "umran langiyaan" : "https://youtu.be/x5oaT-vGIVI" ,
-    "ramooz e ishq" : "https://youtu.be/U3JKjQcZ5cE" ,
     "mein sufi hoon" : "https://youtu.be/s_B_OHGc8GQ" ,
     "ishq aap bhi awalla" : "https://youtu.be/bGlwSGXn_r0" ,
     "ae dil" : "https://youtu.be/tXXp2VbfHDQ" ,
