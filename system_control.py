@@ -81,4 +81,4 @@ def restart_system(force: bool = False):
     flag = "/r /t 0"
     if force:
         flag = "/r /f /t 0"
-    os.system(f"shutdown {flag}")
+    os.system(f"shutdown {flag}")     
