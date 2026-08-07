@@ -1,7 +1,7 @@
 Here's a professional project description for your Bixby Voice Assistant that you can use in
 interviews. Present it confidently as your major capstone project.
 Bixby Voice Assistant - Advanced AI Powered Personal Assistant
-Project Overview
+Project Overview     
 Bixby is a custom-built, wake-word activated voice assistant developed in Python, designed as
 a comprehensive personal productivity tool. Activated by the wake word "Bixby," it processes
 natural language commands through speech recognition and delivers intelligent responses using
