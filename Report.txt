@@ -19,7 +19,7 @@ Audio: Real-time microphone processing with ambient noise cancellation   .
 ### Key Features & Capabilities   
 
 
-1. Wake-Word Activation
+1. Wake-Word Activation     
 
 Activates only when user says "Bixby" (reduces false positives)
 Two-phase listening: wake word 
