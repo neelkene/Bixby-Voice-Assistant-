@@ -1,5 +1,5 @@
 """
-translation_module.py - Voice-activated English -> Hindi translator with TTS.
+  translation_module.py - Voice-activated English -> Hindi translator with TTS.
 
 Listens for "translate" + English sentence, translates, and speaks in Hindi.
 Uses SpeechRecognition (STT), deep-translator, pyttsx3 (TTS).
