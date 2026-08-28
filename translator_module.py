@@ -3,7 +3,7 @@
 
 Listens for "translate" + English sentence, translates, and speaks in Hindi.
 Uses SpeechRecognition (STT), deep-translator, pyttsx3 (TTS).
-Compatible with Python 3.13 on Windows.
+Compatible with only Python 3.13 on Windows.
 """
 
 import speech_recognition as sr
